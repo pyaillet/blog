@@ -11,10 +11,18 @@ metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 2
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+
 [Params]
   #subtitle = "Hugo Blog Template for GitLab Pages"
   #logo = "img/avatar-icon.png"
-  favicon = "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤷</text></svg>"
+  favicon = "img/icon.svg"
   dateFormat = "2 January 2006"
   commit = false
   rss = true
@@ -29,17 +37,17 @@ pygmentCodeFences = true
   linkedin = "pyaillet"
 
 
-#[[menu.main]]
-#    name = "Blog"
-#    url = "post/"
-#    weight = 1
-#
+[[menu.main]]
+    name = "Blog"
+    url = "post/"
+    weight = 1
+
 #[[menu.main]]
 #    name = "About"
 #    url = "page/about/"
 #    weight = 3
 #
-#[[menu.main]]
-#    name = "Tags"
-#    url = "tags"
-#    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
